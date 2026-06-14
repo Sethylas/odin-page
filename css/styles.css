@@ -87,6 +87,7 @@ a {
     margin-top: 5px;
     font-size: 20px;
     border-radius: 5px;
+    border: none;
 }
 
 .hero-image {
@@ -137,6 +138,31 @@ h1.body {
 
 .body li {
     margin-bottom: 64px;
+}
+
+/* Quote Section */
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 128px;
+}
+
+.quote-section .quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 800px;
+    margin: 0;
+    align-self: center;
+}
+
+p.author {
+    width: 800px;
+    text-align: right;
+    font-weight: bold;
+    align-self: center;
 }
 
 
