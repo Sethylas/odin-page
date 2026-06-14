@@ -11,7 +11,6 @@ body {
 .header, .footer {
     background-color: #1F2937;
     display: flex;
-    
 }
 
 
@@ -42,13 +41,21 @@ ul {
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 900;
 }
 
 
 /* Hero */
 
-.hero {
+.post-header {
+    display: flex;
     background-color: #1F2937;
+    padding-bottom: 64px;
+    padding-top: 64px;
+    gap: 32px;
+}
+
+.hero {
     padding: 16px;
 }
 
@@ -67,7 +74,31 @@ ul {
     color: #E5E7EB
 }
 
+.hero button {
+    background-color: #3882F6;
+    color: white;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+}
 
+.hero-image {
+    align-self: center;
+}
+
+.image-box {
+    display: flex;
+    color: #E5E7EB;
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
