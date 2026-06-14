@@ -45,6 +45,13 @@ a {
     font-weight: 900;
 }
 
+.left-links {
+    margin-left: 10vw;
+}
+
+.right-links {
+    margin-right: 10vw;
+}
 
 /* Hero */
 
@@ -60,10 +67,11 @@ a {
 
 .hero {
     padding: 16px;
+    margin-left: 10vw;
 }
 
 .hero p, .hero h1 {
-    max-width: 450px;
+    max-width: 27vw;
 }
 
 .hero h1 {
@@ -92,6 +100,7 @@ a {
 
 .hero-image {
     align-self: center;
+    margin-right: 10vw;
 }
 
 .image-box {
@@ -123,13 +132,13 @@ h1.body {
 .body ul {
     max-width: 180px;
     text-align: center;
-    color: darkgray;
+    color: black;
 }
 
 .body .box{
     outline-style: solid;
     outline-color: #3882F6;
-    margin:auto;
+    margin: auto;
     margin-bottom: 8px;
     width: 140px;
     height: 130px;
